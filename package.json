@@ -34,7 +34,6 @@
     "fs": false
   },
   "dependencies": {
-    "ast-types": "https://github.com/morgancmartin/ast-types.git",
     "esprima": "~4.0.0",
     "private": "^0.1.8",
     "source-map": "~0.6.1"
@@ -54,7 +53,7 @@
     "reify": "0.20.12",
     "ts-emit-clean": "1.0.0",
     "ts-node": "7.0.1",
-    "typescript": "3.6.4"
+    "typescript": "^3.9.5"
   },
   "engines": {
     "node": ">= 4"
