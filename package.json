@@ -24,17 +24,17 @@
   "scripts": {
     "mocha": "test/run.sh",
     "debug": "test/run.sh --inspect-brk",
-    "test": "npm run build && npm run mocha",
-    "build": "npm run clean && tsc",
+    "test": "yarn build && yarn mocha",
+    "build": "yarn clean && yarn tsc",
     "clean": "ts-emit-clean",
-    "prepack": "npm run build",
-    "postpack": "npm run clean"
+    "prepack": "yarn build",
+    "postpack": "yarn clean"
   },
   "browser": {
     "fs": false
   },
   "dependencies": {
-    "ast-types": "file:../ast-types",
+    "ast-types": "https://github.com/morgancmartin/ast-types.git",
     "esprima": "~4.0.0",
     "private": "^0.1.8",
     "source-map": "~0.6.1"
