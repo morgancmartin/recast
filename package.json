@@ -34,7 +34,7 @@
     "fs": false
   },
   "dependencies": {
-    "ast-types": "0.13.3",
+    "ast-types": "https://github.com/morgancmartin/ast-types.git",
     "esprima": "~4.0.0",
     "private": "^0.1.8",
     "source-map": "~0.6.1"
